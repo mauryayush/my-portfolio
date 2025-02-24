@@ -62,6 +62,21 @@ function Project() {
                  </div>
                    
            </div>
+            <br/>
+
+           <div className="container-fluid d-flex">
+                <div className="text-white text-center pro-image col-5">
+                 <img style={{ width: '90%' }} src="./image/digital-clock.webp" alt="temp converture" />
+                 </div>
+                 <div className='col-7'>
+                     <h1 className='txt'>Digital clock</h1>
+                     <p className='txt'>Developed a responsive Digital Clock application using HTML, CSS, and JavaScript, featuring real-time clock updates with hours, minutes, 
+                     and seconds. Focused on clean design, user-friendly interface, and dynamic functionality through JavaScript.
+
+                            </p>
+                 </div>
+                   
+           </div>
     </div>
   </>
   )

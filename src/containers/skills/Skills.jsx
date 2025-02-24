@@ -38,9 +38,13 @@ function Skills() {
         </div>
         <div className="w-50 p-3 m-3">
           <h2 style={{color:'#0e800e'}}>Back-End</h2>
-          <h5>Java</h5>
+          <h5>Python</h5>
           <div className="progress w-100" role="progressbar" aria-label="Animated striped example" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ width: '20%',backgroundColor:'#0e800e' }}>In progress</div>
+            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ width: '75%',backgroundColor:'#0e800e' }}>75%</div>
+          </div>
+          <h5>Django</h5>
+          <div className="progress w-100" role="progressbar" aria-label="Animated striped example" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+            <div className="progress-bar progress-bar-striped progress-bar-animated" style={{ width: '30%',backgroundColor:'#0e800e' }}>In progress</div>
           </div>
         </div>
       </div>

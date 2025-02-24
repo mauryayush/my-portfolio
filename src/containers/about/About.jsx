@@ -26,12 +26,12 @@ function About() {
              <li >Degree &nbsp; → &nbsp; B-tech</li>
              <li >College &nbsp; → &nbsp; Hi-Tech (Ghaziabad)</li>
              <li >Phone &nbsp;  → &nbsp;+91-9984702049</li>
-             <li >Address &nbsp;→ &nbsp;Pratapgarh</li>
+             <li >Current Address &nbsp;→ &nbsp;Noida sector 15</li>
              <li >D-O-B  &nbsp; &nbsp;  → &nbsp; 20-05-2002</li>
              <li>Branch  &nbsp; &nbsp; → &nbsp; CS-DS</li>
              <li>Univercity&nbsp;&nbsp;→ &nbsp;AKTU(Lucknow)</li>
              <li>Email &nbsp;&nbsp; → &nbsp; ayushmaura2098@gmail.com</li>
-             <li>Current&nbsp;&nbsp; → &nbsp; Ghaziabad</li>
+             <li>Permanent address &nbsp;&nbsp; → &nbsp; Pratapgarh UP</li>
       </ul>
    
       </div>
