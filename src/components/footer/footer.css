@@ -1,0 +1,55 @@
+/* General styles for the footer */
+
+  .card-footer{
+      margin-top: 30px;
+  }
+  .card-footer h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  
+  
+  
+  
+  .social-icons a {
+    font-size: 1.5em;
+  }
+  
+  @media (min-width: 768px) {
+    .card-footer h3 {
+      font-size: 1.5em;
+    }
+  
+    .footer-icons {
+      justify-content: flex-end;
+      
+    }
+  }
+  
+  
+  @media (max-width: 767px) {
+    .card-footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .card-footer .col-5, .card-footer .col-4, .card-footer .col-3 {
+      width: 100%;
+      margin: 10px 0;
+   
+    }
+  
+    .footer-icons {
+      justify-content: center;
+     
+     
+    }
+  
+    .social-icons a {
+      font-size: 1.2em;
+     
+    }
+    
+  }
+  

@@ -1,0 +1,15 @@
+.container{
+    margin-top: 70px;
+    margin: 10px;
+    color: white;
+    
+}
+
+@media (max-width: 768px) {
+   
+  
+    
+    img{
+        margin-left: -180px;
+    }
+  }

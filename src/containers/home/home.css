@@ -1,0 +1,148 @@
+
+.instagram{
+    
+    color: #c72b7e;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.twitter{
+    
+    color: #1c9ff1;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.github{
+ 
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.facebook{
+   
+    color: #0679e6;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.linkedin{
+    color: #0679e6;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.instagram:hover{
+    box-shadow: 0px 0px 7px #ff0095 inset,
+                0px 0px 7px #ff0095;
+}
+
+.twitter:hover{
+    box-shadow: 0px 0px 7px #1c9ff1 inset,
+                0px 0px 7px #1c9ff1;
+}
+
+.github:hover{
+    box-shadow: 0px 0px 7px #ff0000 inset,
+                0px 0px 7px #ff0000;
+}
+
+.facebook:hover{
+    box-shadow: 0px 0px 7px #0679e6 inset,
+                0px 0px 7px #0679e6;
+}
+
+.linkedin:hover{
+    box-shadow: 0px 0px 7px #0679e6 inset,
+                0px 0px 7px #0679e6;
+}
+
+
+
+
+
+
+
+
+/* style.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.d-flex {
+    
+    align-items: center;
+    
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.instagram, .linkedin, .github, .facebook, .twitter {
+    width: 30px;
+    height: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .text {
+        margin: 10px;
+    }
+
+    .instagram, .linkedin, .github, .facebook, .twitter {
+        width: 25px;
+        height: 25px;
+    }
+
+    #image img {
+        width: 80%;
+        height: auto;
+        margin-left: 40px;
+        
+    }
+
+    .social-links {
+        flex-direction: row;
+      
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .d-flex {
+        margin-left: 0;
+    }
+
+    .text h1 {
+        font-size: 1.5em;
+    }
+
+    .text h3, .text h4, .text h5, .text h2 {
+        font-size: 1em;
+    }
+
+    #image img {
+        width: 100%;
+        height: auto;
+       
+    }
+
+    .social-links {
+        gap: 10px;
+    }
+}

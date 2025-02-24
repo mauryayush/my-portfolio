@@ -1,0 +1,36 @@
+
+  .container {
+    margin: 10px;
+    margin-top: 70px;
+    color: white;
+  }
+  
+ 
+  
+  
+  .progress-bar-animated {
+    animation: progress-bar-stripes 1s linear infinite;
+  }
+  
+  @keyframes progress-bar-stripes {
+    from {
+      background-position: 1rem 0;
+    }
+    to {
+      background-position: 0 0;
+    }
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .w-50 {
+      width: 100%;
+      
+    }
+  
+    .container {
+      margin: 10px;
+      margin-top: 50px;
+    }
+  }
+  

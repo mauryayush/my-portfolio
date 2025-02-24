@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* color: #0e800e; */
+}
+
+
+.head {
+  padding: 2% 5%;
+ display: flex;
+ justify-content: space-between;
+}
+
+.navbar-link{
+  margin-top: 15px;
+}
+
+.head ul {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+  
+}
+
+.head ul li {
+  list-style: none;
+}
+
+.head ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  padding: 1%;
+  background-color: gold;
+}
+
+.active {
+  color: black !important;
+}
+
+
